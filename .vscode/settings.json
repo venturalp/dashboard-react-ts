@@ -10,4 +10,5 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "explorer.compactFolders": false,
 }
