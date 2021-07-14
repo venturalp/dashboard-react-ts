@@ -1,5 +1,11 @@
-const lightTheme = {
+import { DefaultTheme } from 'styled-components'
+import { pxToRem } from '../styles.helpers'
+
+const lightTheme: DefaultTheme = {
   title: 'light',
+  text: {
+    pxToRem
+  },
   colors: {
     primary: '#DCDCDC',
     secondary: '#FFFFFF',

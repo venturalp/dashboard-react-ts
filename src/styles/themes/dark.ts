@@ -1,5 +1,11 @@
-const darkTheme = {
+import { DefaultTheme } from "styled-components"
+import { pxToRem } from '../styles.helpers'
+
+const darkTheme: DefaultTheme = {
   title: 'dark',
+  text: {
+    pxToRem
+  },
   colors: {
     primary: '#1B1F38',
     secondary: '#252A48',

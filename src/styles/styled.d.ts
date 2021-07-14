@@ -3,6 +3,9 @@ import 'styled-components'
 declare module 'styled-components' {
   export interface DefaultTheme {
     title: string,
+    text: {
+      pxToRem: (number) => string
+    }
     colors: {
       primary: string,
       secondary: string,
